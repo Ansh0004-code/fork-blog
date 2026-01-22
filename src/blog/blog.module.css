@@ -1,0 +1,30 @@
+@reference "tailwindcss";
+
+.container {
+  @apply flex justify-between w-full gap-4 px-4 m-auto;
+}
+
+.leftPanel {
+  @apply w-[420px] flex flex-col gap-4;
+}
+
+.rightPanel {
+  @apply bg-white border border-gray-100 
+  rounded-xl p-4 h-fit flex-1;
+}
+.blogHeading {
+ @apply py-8
+}
+.sideTitle {
+  @apply text-lg font-semibold mb-2;
+}
+
+.sideText {
+  @apply text-sm text-gray-500;
+}
+.heading {
+  @apply text-center
+}
+.description {
+  @apply text-center
+}

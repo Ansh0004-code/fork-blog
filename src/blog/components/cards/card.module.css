@@ -1,0 +1,36 @@
+@reference "tailwindcss";
+
+.card {
+  @apply bg-white rounded-xl p-4 w-full cursor-pointer
+    shadow-sm border border-gray-100;
+}
+
+.header {
+  @apply flex items-center justify-between mb-2;
+}
+
+.tag {
+  @apply text-[11px] font-semibold flex gap-2
+   tracking-wide text-gray-500 uppercase;
+}
+.active {
+  @apply border border-red-500
+}
+.time {
+  @apply text-[11px] text-gray-400;
+}
+
+.title {
+  @apply text-base font-semibold text-gray-900 mb-1;
+}
+
+.description {
+  @apply text-sm text-gray-500 leading-relaxed mb-3;
+}
+
+.category {
+  @apply inline-block text-xs px-3 py-1 rounded-full bg-gray-100 text-gray-600 font-medium;
+}
+
+
+
